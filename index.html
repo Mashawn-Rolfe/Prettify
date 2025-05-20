@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Formater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>JSON Formatter/Prettifier</h2>
+
+        <div class="row">
+            <div class="column">
+                <textarea id="JSONBefore"></textarea>
+            </div>
+
+            <div class="column buttons">
+                <button onclick="validateJSON()">
+                    Validate
+                </button>
+                <button onclick="formatJSON()">
+                    Format
+                </button>
+                <button onclick="compactJSON()">
+                    Compact
+                </button>
+            </div>
+
+            <div class="column">
+                <textarea id="JSONAfter"></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
